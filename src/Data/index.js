@@ -1,5 +1,5 @@
 import team from './team';
 
-export default {
+export {
   team
 }

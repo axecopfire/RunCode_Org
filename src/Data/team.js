@@ -1,5 +1,4 @@
-export default {
-  "team": [
+export default [
   {
     "name": "Josh Rykowski",
     "slack": "ryko212",
@@ -38,4 +37,3 @@ export default {
     "info": "A Navy linguist turned web developer. Graduated from Vets Who Code, a boot camp that teaches vets to code for free. Taught a web development boot camp at theClubhouse in Augusta Georgia. Work on the front end for Run Code."
   }
 ]
-}

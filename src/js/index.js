@@ -1,6 +1,8 @@
-import Data from '../data';
-import Stallions from "./Stallions";
+// import Data from '../Data';
+import App from "./Stallions.vue";
+import Vue from 'vue';
 
 window.onload = () => {
-  document.getElementById("Stallions").appendChild(Stallions(Data.team));
+
+  new Vue({ render: createElement => createElement(App) }).$mount("#Stallions");
 }
