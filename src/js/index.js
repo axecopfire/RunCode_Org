@@ -4,5 +4,6 @@ import Vue from 'vue';
 
 window.onload = () => {
 
+  // Stallions
   new Vue({ render: createElement => createElement(App) }).$mount("#Stallions");
 }
