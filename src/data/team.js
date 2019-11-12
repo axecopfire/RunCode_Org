@@ -1,4 +1,4 @@
-{
+export default {
   "team": [
   {
     "name": "Josh Rykowski",
