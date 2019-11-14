@@ -7,22 +7,27 @@ img
 header.top
   position: fixed
   top: 0
-  background: rgba(255,255,255, .2)
-  z-index: 1
+  background: rgba(0,0,0, .1)
+  box-shadow: 2px 2px 20px 2px rgba(0,0,0,.2)
+  z-index: 12
   width: calc(100% - 10px)
   padding: 10px
-  height: 20px
   img
     width: 10%
   nav
     float: right
     margin-right: 10px
+  button, h2
+    display: inline-block
+    font-size: 30px
+    margin-right: 10px
 
 
 .splash
   position: relative
-  margin-top: 40px
+  margin-top: 75px
   font-weight: bold
+  z-index: 1
   h1
     position: absolute
     top: 20%
@@ -33,6 +38,30 @@ header.top
     color: $primary-red
     background: ivory
     padding: 10px
+
+.philosophy
+  position: relative
+  img
+    position: relative
+    left: -30%
+    filter: opacity(20%)
+    top: 0px
+    transform: rotate(30deg)
+  h3
+    position: absolute
+    top: 50%
+    width: 80%
+    text-align: left
+    left: 50%
+    transform: translate(-50%, -50%)
+    font-size: 16px
+    font-weight: bold
+    letter-spacing: 2px
+    line-height: 1.2
+  @media(min-width: 430px)
+    h3
+      line-height: 1.5
+      font-size: 24px
 
 .ninja
   display: block

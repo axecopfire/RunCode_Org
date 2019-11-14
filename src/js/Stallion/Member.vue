@@ -50,14 +50,15 @@ div
   background: white
   padding: 30px 0
   border-radius: 10px
-
-
+  &:hover
+    cursor: pointer
 h3
   font-size: 18px
   font-weight: bold
   text-align: center
 img
   height: 100px
+  max-width: 80%
   margin: 0 auto
   margin-bottom: 30px
   display: block
