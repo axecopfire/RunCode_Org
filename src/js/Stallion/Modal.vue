@@ -4,32 +4,38 @@
       <h3>{{name}}</h3>
         <ul>
           <li>
-            <img src="../../images/Slack_Mark.svg" />
+            <img :src="slack_logo" />
             <p>@{{slack}}</p>
           </li>
         </ul>
-      <img class="prof-pic" :src="`./stallions/${image}`" >
+      <img class="prof-pic" :src="profPic" >
       <p class="info" v-html="infoScrub" ></p>
     </div>
   </div>
 </template>
 
 <script>
-// import slack_logo from './stallions/Slack_Mark.svg';
+import slack_logo from '../../images/Slack_Mark.svg';
+import images from '../../images/stallions/*.png';
+
 
 export default {
   props: ['name', 'image', 'slack', 'info'],
+    data () {
+      return {
+        slack_logo,
+        images
+      }
+    },
   computed: {
     infoScrub () {
       const output = this.info.replace(/\n/g, "<br>");
-      console.log(output);
       return output;
     },
-    // data () {
-    //   return {
-    //     slack_logo
-    //   }
-    // }
+    profPic () {
+        return this.images[this.image]
+      }
+
   }
 }
 </script>
@@ -95,4 +101,7 @@ p
 ::-webkit-scrollbar-thumb
   background: red 
   border-radius: 10px
+/*
+Ask stability questions
+    */
 </style>

@@ -10,30 +10,36 @@
           :image="image"
         ></Modal>
       </transition>
-      <img :src="`./stallions/avatars/${rand}`" >
+      <img :src="`${avatar}`" >
       <h3>{{name}}</h3>
-      <!-- <p>{{info}}</p> -->
+
     </section>
   </div>
 </template>
 <script>
 import Modal from './Modal.vue';
+import images from '../../images/stallions/avatars/*.*';
+
+console.log(JSON.stringify(images));
 
 export default {
   props: ['name', 'image', 'slack', 'info'],
   data () {
     return {
-      modalActive: false
+      modalActive: false,
+      images
     }
   },
   components: {
     Modal
   },
   computed: {
-    rand () {
+    avatar () {
        let output = Math.ceil(Math.random() * 10) + 1;
-       output = output === 11 ? "pcguy.png" : output + ".svg";
-        // console.log(output)
+       // pcguy is a png. Everything else is an svg with a number for name
+       output = output === 11 ? this.images["pcguy"].png : this.images[output].svg;
+       
+        console.log(output)
        return output;
     }
   }
