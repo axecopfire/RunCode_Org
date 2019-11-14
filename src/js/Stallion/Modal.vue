@@ -2,10 +2,13 @@
   <div class="bg">
     <div class="container">
       <h3>{{name}}</h3>
-
-        <img src="../../images/Slack_Mark.svg" />
-      <p>{{slack}}</p>
-      <img :src="`./stallions/${image}`" >
+        <ul>
+          <li>
+            <img src="../../images/Slack_Mark.svg" />
+            <p>@{{slack}}</p>
+          </li>
+        </ul>
+      <img class="prof-pic" :src="`./stallions/${image}`" >
       <p class="info" v-html="infoScrub" ></p>
     </div>
   </div>
@@ -54,18 +57,28 @@ export default {
   top: 50%
   left: 50%
   transform: translate(-50%, -50%)
-img
-  width: 30%
+.prof-pic
   margin: 10px auto
+  width: 10vh
+
 h3
   font-size: 30px
   font-weight: bold
   margin-bottom: 20px
+li
+  display: table
+  margin: 0 auto
+li>img, li>p
+  display: table-cell
+  vertical-align: middle
+li img
+  width: 40px
+  display: inline-block
 p
   line-height: 1.5
 .info
   text-align: left
-  max-height: 50%
+  height: 50%
   overflow: scroll
 
 /* width */

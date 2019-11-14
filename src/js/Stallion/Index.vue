@@ -29,3 +29,13 @@ export default Vue.extend({
   }
 });
 </script>
+<style lang="sass" scoped>
+ul
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+
+li
+  width: 30%
+  padding: 10px
+</style>
