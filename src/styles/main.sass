@@ -17,10 +17,19 @@ header.top
   nav
     float: right
     margin-right: 10px
+    img
+      width: 24px
   button, h2
     display: inline-block
-    font-size: 30px
+    font-size: 24px
     margin-right: 10px
+  button
+    border: 2px solid black
+    background: white
+    padding: 5px
+  a
+    text-decoration: none
+    font-weight: bold
 
 
 .splash
@@ -31,14 +40,19 @@ header.top
   h1
     position: absolute
     top: 20%
+    max-width: 90%
     left: 50%
     transform: translateX(-50%)
-    width: 80%
-    font-size: 30px
     color: $primary-red
     background: ivory
     padding: 10px
-
+@media(min-width: 960px)
+  h1
+    font-size: 45px
+    line-height: 2
+    letter-spacing: 3px
+    max-width: 80%
+    padding: 10px 30px
 .philosophy
   position: relative
   img
