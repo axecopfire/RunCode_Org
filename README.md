@@ -12,3 +12,7 @@ We are using parcel for our dev server
 `npm run dev`
 you'll find the project running at
 `http://localhost:1234`
+
+
+#### Janky
+Stallions Images
