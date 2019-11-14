@@ -4,7 +4,7 @@ export default [
     "slack": "ryko212",
     "twitter": "https://twitter.com/ryko212",
     "image": "Ryko.png",
-    "info": "Currently serves as a Cyberspace operations officer for the US Army where he has lead a Cyber Protection Team and worked to develop specialized training for those same teams. On his convoluted path to cybersecurity he obtained a Bachelors of Science in Electrical Engineering from the United States Military Academy and a Masters Degree in Computer Science from Rice University focusing on multi-robot systems. \n In his spare time, Josh serves as the executive director and challenge developer for the RunCode.ninja programming challenge non-profit where he works with a talented team of individuals to provide real-world programming challenges while cultivating community support at no-cost to the broader community. \n Finally, he is passionate about teaching and giving back to the community through volunteering his time as a technical mentor for CyberPatriot, managing the RunCode.ninja non-profit, and mentoring local talent within the cyber domain."
+    "info": "Currently serves as a Cyberspace operations officer for the US Army where he has lead a Cyber Protection Team and worked to develop specialized training for those same teams. On his convoluted path to cybersecurity he obtained a Bachelors of Science in Electrical Engineering from the United States Military Academy and a Masters Degree in Computer Science from Rice University focusing on multi-robot systems. \n\n In his spare time, Josh serves as the executive director and challenge developer for the RunCode.ninja programming challenge non-profit where he works with a talented team of individuals to provide real-world programming challenges while cultivating community support at no-cost to the broader community. \n\n Finally, he is passionate about teaching and giving back to the community through volunteering his time as a technical mentor for CyberPatriot, managing the RunCode.ninja non-profit, and mentoring local talent within the cyber domain."
   },
   {
     "name": "Zach McElroy",
@@ -16,13 +16,13 @@ export default [
     "name": "Scott Hamilton",
     "slack": "funtimes",
     "image": "FunTimes.png",
-    "info": "A Cyber Operations Warrant Officer in the United States Army. He currently serves as one of the lead developers and systems architect for the Network, Engineering, Research, and Development shop for the Cyber Protection Brigade. \n In his free time he is one of five challenge developers that contribute to RunCode platform."
+    "info": "A Cyber Operations Warrant Officer in the United States Army. He currently serves as one of the lead developers and systems architect for the Network, Engineering, Research, and Development shop for the Cyber Protection Brigade. \n\n In his free time he is one of five challenge developers that contribute to RunCode platform."
   },
   {
     "name": "Nate Hicks",
     "slack": "nazwadi",
     "image": "Nazwadi.png",
-    "info": "A Cyberspace operations officer in the US Army where he was previously involved in the development and execution of training exercises for Cyber Protection Teams, as well as leading operations for the same.  He is currently finishing an Army Advanced Civil Schooling assignment at Georgia Tech where he will graduate with an M.S. Cybersecurity in May.  He obtained a Bachelor of Science in Computer Science from the United States Military Academy. \n In his spare time, Nathan serves as a challenge developer and part-time sysadmin for RunCode, takes care of administrative tasks on behalf of the non-profit, and on a personal level enjoys experimenting with Linux infrastructure and coding projects."
+    "info": "A Cyberspace operations officer in the US Army where he was previously involved in the development and execution of training exercises for Cyber Protection Teams, as well as leading operations for the same.  He is currently finishing an Army Advanced Civil Schooling assignment at Georgia Tech where he will graduate with an M.S. Cybersecurity in May.  He obtained a Bachelor of Science in Computer Science from the United States Military Academy.\n\n In his spare time, Nathan serves as a challenge developer and part-time sysadmin for RunCode, takes care of administrative tasks on behalf of the non-profit, and on a personal level enjoys experimenting with Linux infrastructure and coding projects."
   },
   {
     "name": "Matt Bledsoe",

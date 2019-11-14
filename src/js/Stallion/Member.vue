@@ -18,7 +18,7 @@
   </div>
 </template>
 <script>
-import Modal from './StallionModal.vue';
+import Modal from './Modal.vue';
 
 export default {
   props: ['name', 'image', 'slack', 'info'],
