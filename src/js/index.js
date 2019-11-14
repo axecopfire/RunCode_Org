@@ -1,5 +1,5 @@
 // import Data from '../Data';
-import App from "./Stallions.vue";
+import App from "./Stallion/Index.vue";
 import Vue from 'vue';
 
 window.onload = () => {
